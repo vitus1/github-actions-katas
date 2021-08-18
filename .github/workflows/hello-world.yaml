@@ -6,5 +6,5 @@ jobs:
     container: gradle:6-jdk1
     steps:
       - uses: actions/checkout@v2
-      - name: my-step
+        name: my-step
       - run: ci/build-app.sh
