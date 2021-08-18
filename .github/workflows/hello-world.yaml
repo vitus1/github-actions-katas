@@ -21,7 +21,7 @@ jobs:
       with:
         name: code
         path: .
-    - run: ci/unit-test-app.sh
+    - run: chmod +x ci/unit-test-app.sh
       name: my-test
   Build:
     runs-on: ubuntu-latest
